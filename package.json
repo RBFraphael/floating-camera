@@ -1,0 +1,26 @@
+{
+  "name": "floating-camera",
+  "version": "1.0.0",
+  "description": "Make a floating camera on your desktop, useful for livestreams and recording tutorials.",
+  "main": "src/main/main.js",
+  "repository": "https://github.com/rbfraphael/floating-camera",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": {
+    "name": "RBFraphael",
+    "email": "rbfraphael@gmail.com",
+    "url": "https://rbfraphael.github.io"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.1.1",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "electron-serve": "^1.2.0"
+  }
+}

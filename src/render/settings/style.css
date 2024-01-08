@@ -1,0 +1,11 @@
+div {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+div input,
+div select {
+    flex-grow: 1;
+}
